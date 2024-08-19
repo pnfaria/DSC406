@@ -1,3 +1,16 @@
+---
+title: "EDA for Big Data: introduction"
+author: "Priscila Neves Faria, PhD"
+date: "`r Sys.Date()`"
+output:
+  html_document:
+    toc: true
+    toc_depth: 3
+    toc_float: true
+    theme: "readable"
+    df_print: "paged"
+---
+
 # What is "Exploratory Data Analysis (EDA)" ?
 
 
