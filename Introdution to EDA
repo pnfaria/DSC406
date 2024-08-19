@@ -1,1 +1,83 @@
+# What is "Exploratory Data Analysis (EDA)" ?
+
+
+In this course, we’ll see many topics involving exploratory data analysis:
+
+•	Important Packages for Exploratory Data Analysis 
+
+•	Creating Graphs (Bar, histogram, boxplot, scatter plot and others)
+
+•	Descriptive statistics, Frequency, Tables and summarization
+
+•	Univariate Analysis (Distribution of data & Graphical Analysis)
+
+•	Bivariate Analysis (Graphical Analysis, Relationships, Correlation)
+
+*Exploratory Data Analysis (EDA)*, also known as Data Exploration, is a step in the Data Analysis Process, where a number of techniques are used to better understand the dataset being used.
+
+‘Understanding the dataset’ can refer to a number of things including but not limited to…
+
+•	Extracting IMPORTANT variables and leaving behind USELESS variables;
+
+•	Identifying outliers (values that are significantly different from the other observations), missing values, or human error;
+
+•	Understanding the relationship(s), or lack of, between variables;
+
+•	Finally, maximizing your insights of a dataset and minimizing potential error that may occur later in the process.
+		
+By conducting EDA, you can turn an almost useable dataset into a completely useable dataset. I’m not saying that EDA can magically make any dataset clean — that is not true. However, many EDA techniques can remedy some common problems that are present in every dataset.
+
+# What to expect from EDA ?
+
+1. It helps clean up a dataset.
+
+2. It gives you a better understanding of the variables and the relationships between them.
+
+EDA is a fundamental early step after data collection and pre-processing, where the data is simply visualized, plotted, manipulated, without any assumptions, in order to help assessing the quality of the data and building models.
+
+*EDA methods can be cross classified as:*
+
+• Graphical or non-graphical methods 
+
+• Univariate (only one variable, exposure or outcome) or multivariate (several exposure variables alone or with an outcome variable) methods.
+
+The non-graphical methods will provide insight into the characteristics and the distribution of the variable(s) of interest. Univariate non-graphical EDA tabulation of categorical data (tabulation of the frequency of each category) can be created to build a table containing the count and the fraction (or frequency) of data of each category.
+
+# EDA components
+
+There are three main components of exploring data:
+
+1.	Understanding your variables
+
+2.	Cleaning your dataset
+
+3.	Analyzing plots, interpret descriptive statistics and relationships between variables.
+
+## 1. Understanding your variables
+
+Before beginning data cleaning, it is important first to understand the variables in your dataset. Understanding the variables will help you identify potential data quality issues and determine the appropriate cleaning techniques to use. How you can understand your variables?
+
+Using functions like:
+
+*.head()* returns the first 6 rows of my dataset. This is useful if you want to see some example values for each variable. Once I knew all of the variables in the dataset, I wanted to get a better understanding of the different values for each variable.
+
+*describe()* summarizes the count, mean, standard deviation, min, and max for numeric variables. The code that follows this simply formats each row to the regular format and suppresses scientific notation.
+
+You can use many other functions and statistics to understand your variables in your data set. You can analyze them individually or together. They can help you to find several issues such as unexpected values, proportion of missing values compared to the whole data set.
+
+Before learning about graphics and data visualization, we will need to install software and for that you will need to follow the next steps:
+
+## 2. Cleaning your dataset
+
+Removing redundant variables, doing variable selection, removing outliers, removing rows with Null Values.You now know how to reclassify discrete data if needed, but there are a number of things that still need to be looked at.
+
+## 3. Analyzing plots 
+
+There are several other types of visualizations that weren’t covered that you can use depending on the dataset like stacked bar graphs, area plots, violin plots, and even geospatial visuals.
+
+By going through the three steps of exploratory data analysis, you’ll have a much better understanding of your data, which will make it easier to choose your model, your attributes, and refine it overall.
+
+An important step in Exploratory Data Analysis is to examine how the values of different variables are distributed. Graphical approaches for examining the distribution of the data include histograms, boxplots, cumulative distribution functions, and quantile-quantile (Q-Q) plots. Information on the distribution of values is often useful for selecting appropriate analyses and confirming whether assumptions underlying particular methods are supported (e.g., normally distributed residuals for a least squares regression).
+
+
 
